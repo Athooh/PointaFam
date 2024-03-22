@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         slides[currentSlide].classList.add('active');
     }
 
-    setInterval(showSlide, 7000); // Change slide every 10 seconds
+    setInterval(showSlide, 5000); // Change slide every 10 seconds
     showSlide(); // Show initial slide
 });
 
@@ -24,7 +24,7 @@ function moveCarousel() {
     container.appendChild(currentItem);
     container.style.transition = 'none';
     container.style.transform = 'translateX(0)';
-    }, 3000); // Move every 5 seconds
+    }, 3000); // Move every 3 seconds
 }
 
   // Start carousel movement
