@@ -257,11 +257,10 @@ section .call_to_action {
     
 }
 .about_gardening {
-    /* background: radial-gradient(circle, rgb(10, 202, 128) 0%, #042e52 100%); */
-    padding: 20px 120px;
+    background-image: url(../img/gardeningbg1.jpg);
+    padding: 30px 120px;
     display: flex;
     gap: 30px;
-
 }
 
 .about_gardening img {
@@ -271,7 +270,7 @@ section .call_to_action {
 
 .gardening h3 {
     /* font-weight: 300px; */
-    color: #444;
+    color: #fff;
     font-size: 14px;
     border: 1px solid #e1e1e1;
     width: -moz-fit-content;
@@ -284,6 +283,7 @@ section .call_to_action {
     margin-block: 10px;
     font-size: 45px;
     text-transform: capitalize;
+    color: #fff;
 }
 
 .gardening .mission {
@@ -302,11 +302,11 @@ section .call_to_action {
 
 .box1 h2 {
     text-transform: capitalize;
-    color: #444;
+    color: #fff;
 }
 
 .box1 p {
-    color: #8e8e8e;
+    color: #fff;
     font-size: 14px;
 }
 
@@ -328,11 +328,11 @@ section .call_to_action {
     width: 340px;
 }
 .box2 h2 {
-    color: #444;
+    color: #fff;
 }
 
 .box2 p {
-    color: #8e8e8e;
+    color: #fff;
     font-size: 14px;
 }
 
