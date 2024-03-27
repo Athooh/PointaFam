@@ -217,7 +217,7 @@ nav .nav_container {
 
 section .call_to_action {
     /* margin: 20px 0; */
-    padding: 0 120px;
+    padding: 20px 120px;
     text-align: center;
     background-image: url(../img/map1.png);
     background-position: center;
@@ -232,7 +232,7 @@ section .call_to_action {
     padding-top: 60px;
 }
 
-.call_to_action .btn {
+.call_to_action button {
     padding: 15px;
     background-color: #4CBB17;
     border: none;
@@ -241,21 +241,17 @@ section .call_to_action {
     width: -moz-fit-content;
     width: fit-content;
     border-radius: 4px;
-}
-
-.call_to_action .btn:hover {
-    cursor: pointer;
-    color: #008000;
-    display: block;
-}
-
-.call_to_action .btn a {
     font-size: 18px;
     color: #fff;
-    text-decoration: none;
     text-transform: uppercase;
-    
 }
+
+.call_to_action button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #008000;
+}
+
 .about_gardening {
     background-image: url(../img/gardeningbg1.jpg);
     padding: 30px 120px;
@@ -335,16 +331,6 @@ section .call_to_action {
     color: #fff;
     font-size: 14px;
 }
-
-/* .box2 i {
-    background-color: #4CBB17;
-    padding: 5px;
-    border-radius: 50px;
-    color: #fff;
-} */
-
-
-
 
 /* CONTACT US SECTION */
 .contact_us {
